@@ -1,4 +1,4 @@
-Sampling Techniques and Machine Learning Models for Credit Card Fraud Detection
+Credit Card Fraud Detection using Sampling Techniques and Machine Learning Models
 Overview
 This project aims to explore various sampling techniques to handle class imbalance in a dataset and evaluate their performance with different machine learning models. The dataset used in this project is the Credit Card Fraud Detection dataset, which is originally imbalanced. The goal is to apply five sampling techniques to balance the dataset and use five machine learning models to evaluate their performance.
 
@@ -32,3 +32,5 @@ Random Forest
 Support Vector Machine 
 K-Nearest Neighbors 
 Each model is trained and tested with the five sampling techniques, and performance is evaluated using accuracy.
+
+After evaluating the performance of various sampling techniques combined with different machine learning models, the results revealed that RandomForestClassifier along with SMOTE sampling method had the most accuracy of 0.993450
