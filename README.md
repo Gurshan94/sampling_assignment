@@ -13,10 +13,10 @@ Credit Card Data CSV
 ## Data Description
 
 Class: The target variable, where 1 represents a fraudulent transaction, and 0 represents a non-fraudulent transaction.
-V1 to V28: Various unknown features representing different aspects of the transaction.
-Objective
 
-## The main objectives of the project are:
+V1 to V28: Various unknown features representing different aspects of the transaction.
+
+## Objective
 
 Download and load the dataset.
 Balance the dataset using different sampling techniques.
@@ -26,19 +26,29 @@ Compare the performance of each sampling technique with each machine learning mo
 ## Sampling Techniques
 
 Random Undersampler : Randomly reduces the majority class to balance the dataset.
+
 Random Oversampler : Randomly increases the minority class by replicating examples.
+
 Tomek Links Sampling : Removes instances from the majority class that are the nearest neighbors of minority class examples.
+
 SMOTE Sampling : Synthetic Minority Over-sampling Technique (SMOTE) generates synthetic examples in the feature space.
+
 NearMiss Sampling : Selects examples of the majority class that are closest to the minority class.
 
 ## Machine Learning Models
 
 Logistic Regression 
+
 Decision Tree 
+
 Random Forest 
+
 Support Vector Machine 
+
 K-Nearest Neighbors 
 
 Each model is trained and tested with the five sampling techniques, and performance is evaluated using accuracy.
 
-## After evaluating the performance of various sampling techniques combined with different machine learning models, the results revealed that RandomForestClassifier along with SMOTE sampling method had the most accuracy of 0.993450
+![My Image](image.png)
+
+## After evaluating the performance of various sampling techniques combined with different machine learning models, the results revealed that RandomForestClassifier along with oversampler sampling method had the most accuracy of 1.0000
