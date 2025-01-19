@@ -7,7 +7,7 @@ This project aims to explore various sampling techniques to handle class imbalan
 ## Dataset
 
 The dataset used in this project is available for download from the following link:
-https://github.com/AnjulaMehto/Sampling_Assignment/blob/f0c491556cded07517283c75e603bccb70112c26/Creditcard_data.csv
+https://github.com/AnjulaMehto/Sampling_Assignment/blob/f0c491556cded07517283c75e603bccb70112c26/Creditcard_data.csv 
 Credit Card Data CSV
 
 ## Data Description
